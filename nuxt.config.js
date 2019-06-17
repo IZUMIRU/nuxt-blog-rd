@@ -50,7 +50,12 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
+    '@nuxtjs/pwa',
   ],
+  manifest: {
+    name: 'nuxt-blog-rd',
+    lang: 'ja'
+  },
   /*
   ** Axios module configuration
   */
